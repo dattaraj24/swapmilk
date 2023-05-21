@@ -97,7 +97,7 @@ export default function App() {
                 </Web3ReactManager>
                 <Marginer />
               </BodyWrapper>
-              <MobileFooter />
+        
               <Footer />
             </TranslationsContext.Provider>
           </LanguageContext.Provider>
