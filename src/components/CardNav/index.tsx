@@ -28,7 +28,7 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
           className="lottery-link"
           as="a"
           href="https://www.binance.org/en/panama"
-          target="_blank"
+          target="_parent"
           rel="noreferrer noopener"
         >
           Bridge

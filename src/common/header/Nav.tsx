@@ -27,7 +27,32 @@ const Nav: React.FC<{}> = () => {
 
   return (
     <nav className="mainmenu-nav">
-      <ul className="mainmenu">
+     <ul className="mainmenu">
+        <li>
+          <a href="https://milkshakeswap.finance/">Home</a>
+        </li>
+        <li className="menu-item-has-children">
+          <div>
+            Trade <FaAngleDown />
+          </div>
+          <ul className="axil-submenu">
+            <li>
+              <Link to="/swap">Swap</Link>
+            </li>
+            <li>
+              <Link to="/pool">Pool</Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://milkshakeswap.finance/farm">Milking</a>
+        </li>
+        <li>
+          <a href="https://milkshakeswap.finance/pool">Flavour Pool</a> 
+        </li>
+        <li>
+          <a href="https://milkshakeswap.finance/stake">Staking</a>
+        </li>
         <li>
           {account ? (
             <div className="d-flex">
@@ -58,7 +83,7 @@ const Nav: React.FC<{}> = () => {
             >
               <MdContentCopy />
             </CopyToClipboard>
-            <a href={bscScan} target="_blank"  rel="noreferrer">
+            <a href={bscScan} target="_parent"  rel="noreferrer">
               <img
                 src={bscScanLogo}
                 alt="bsc-scan"

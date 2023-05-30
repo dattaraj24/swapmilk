@@ -8,26 +8,26 @@ import logo from "../../images/logo/milkshakeswap-logo.png"
 const MobileMenu = ({ MobileHandler }) => {
   return (
     <div className="mobilemenu-popup">
-      <div className="mobilemenu-inner">
-        <div className="mobilemenu-header">
-          <div className="mobile-nav-logo">
-            <Link to="/">
-            <img
-                className="dark-mode" 
-                src={logo}
-                alt="Site Logo"
-              />
-            </Link>
-          </div>
-          <Button className="mobile-menu-close" onClick={MobileHandler}>
-            <FaTimes />
-          </Button>
+    <div className="mobilemenu-inner">
+      <div className="mobilemenu-header">
+        <div className="mobile-nav-logo">
+          <Link to="/">
+          <img
+              className="dark-mode" 
+              src={logo}
+              alt="Site Logo"
+            />
+          </Link>
         </div>
-        <div className="mobilemenu-body">
-          <Nav />
-        </div>
+        <Button className="mobile-menu-close" onClick={MobileHandler}>
+          <FaTimes />
+        </Button>
+      </div>
+      <div className="mobilemenu-body">
+        <Nav />
       </div>
     </div>
+  </div>
   );
 };
 

@@ -20,9 +20,9 @@ const MobileFooter = () => {
   }
   return (
     <>
-      <nav className="mobile-nav">
+        <nav className="mobile-nav">
         <li className="mobile-nav-li">
-          <a href="https://cytogenepathlab.in/" target="_blank" rel="noreferrer">
+          <a href="https://milkshakeswap.finance/" target="_parent" rel="noreferrer">
             <img src={home} alt="home" className="menu-img" />
             <div style={{ fontSize: '8px' }}>Home</div>
           </a>
@@ -34,27 +34,27 @@ const MobileFooter = () => {
           </span>
         </li>
         <li className="mobile-nav-li">
-          <a href="https://cytogenepathlab.in/farm" target="_blank" rel="noreferrer">
+          <a href="https://milkshakeswap.finance/farm" target="_parent" rel="noreferrer">
             <img src={farms} alt="home" className="menu-img" />
             <div style={{ fontSize: '8px' }}>Milking</div>
           </a>
         </li>
         <li className="mobile-nav-li">
-          <a href="https://cytogenepathlab.in/pool" target="_blank" rel="noreferrer">
+          <a href="https://milkshakeswap.finance/pool" target="_parent" rel="noreferrer">
             <img src={pool} alt="home" className="menu-img" />
             <div style={{ fontSize: '8px' }}>Flavour Poll</div>
           </a>
         </li>
         <li className="mobile-nav-li">
-          <Link to="/next-draw">
+        <a href="https://milkshakeswap.finance/stake" target="_parent" rel="noreferrer">
             <img src={lotto} alt="home" className="menu-img" />
-            <div style={{ fontSize: "8px" }}>Lotto</div>
-          </Link> 
+            <div style={{ fontSize: "8px" }}>staking</div>
+          </a> 
         </li>
         <li style={{ cursor: 'pointer' }} className="mobile-nav-li">
           <span onClick={openNewHandle} aria-hidden="true">
             <img src={soon} alt="home" className="menu-img" />
-            <div style={{ fontSize: '8px' }}>Trade</div>
+            <div style={{ fontSize: '8px' }}>coming Soon</div>
           </span>
         </li>
       </nav>
