@@ -36,6 +36,7 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher'
 const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;
+
 `
 
 const BodyWrapper = styled.div`
@@ -51,9 +52,7 @@ const BodyWrapper = styled.div`
 
 `
 
-const Marginer = styled.div`
 
-`
 
 export default function App() {
   const [selectedLanguage, setSelectedLanguage] = useState<any>(undefined)
@@ -76,6 +75,7 @@ export default function App() {
                 <Popups />
                 <Web3ReactManager>
                   <Switch>
+
                     <Route exact strict path="/swap" component={Swap} />
                     <Route exact strict path="/swap/:outputCurrency" component={RedirectToSwap} />
                     <Route exact strict path="/send" component={RedirectPathToSwapOnly} />
@@ -94,7 +94,7 @@ export default function App() {
                     <Route component={RedirectPathToSwapOnly} />
                   </Switch>
                 </Web3ReactManager>
-                <Marginer />
+           
               </BodyWrapper>
               <MobileFooter />
               <Footer />

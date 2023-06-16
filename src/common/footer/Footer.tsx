@@ -50,7 +50,9 @@ const Footer = () => {
                     alt="logo"
                     width="300"
                   />
+
                 </Link> 
+
               </div>
             </div>
             <div className="col-xl-4 col-md-12 mt-5"> 
