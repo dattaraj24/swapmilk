@@ -46,7 +46,6 @@ const BodyWrapper = styled.div`
   align-items: center;
   flex: 1;
   overflow-y: auto;
-  overflow-x: hidden;
   z-index: 1;
   background-repeat: no-repeat;
 

@@ -36,7 +36,7 @@ var MobileFooter = function () {
             react_1["default"].createElement("li", { className: "mobile-nav-li" },
                 react_1["default"].createElement("a", { href: "https://milkshakeswap.finance/pool", target: "_parent", rel: "noreferrer" },
                     react_1["default"].createElement("img", { src: pool_png_1["default"], alt: "home", className: "menu-img" }),
-                    react_1["default"].createElement("div", { style: { fontSize: '8px' } }, "Flavour Poll"))),
+                    react_1["default"].createElement("div", { style: { fontSize: '8px' } }, "Flavour Pool"))),
             react_1["default"].createElement("li", { className: "mobile-nav-li" },
                 react_1["default"].createElement("a", { href: "https://milkshakeswap.finance/stake", target: "_parent", rel: "noreferrer" },
                     react_1["default"].createElement("img", { src: lotto_png_1["default"], alt: "home", className: "menu-img" }),
